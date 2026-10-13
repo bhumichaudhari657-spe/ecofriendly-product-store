@@ -1,0 +1,17 @@
+.home-product-container{
+    background-color:rgb(224, 224, 223);;
+    display:grid;
+    grid-template-columns:repeat(4,245px);
+    gap:10px;
+    padding:10px;
+    z-index:-2;
+    justify-content: center;
+}
+.homeproduct-h4{
+    color:rgb(34, 33, 33);
+    font-size:40px;
+    margin-top:5px;
+    padding:20px;
+    margin-bottom:0px;
+    text-align: center;
+}

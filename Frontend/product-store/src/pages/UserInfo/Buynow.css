@@ -1,0 +1,77 @@
+.modal-backdrop {
+  width: 100%;
+  top:0%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(249, 249, 249);
+}
+
+.modal {
+  margin-top: 20px;
+  background: white;
+  border-radius: 12px;
+  width: 800px;
+  margin-left: 30px;
+  padding-left: 20px;
+   padding-right: 20px;
+  /* max-width: 90%; */
+}
+
+.BuyNowTextArea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+}
+.BuyNowText{
+   width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+}
+
+
+.modal-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cancel-btn {
+  background: #ccc;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+}
+
+.confirm-btn {
+  background: green;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+}
+.orderTotal{
+  height:300px;
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 500px;
+  margin-right: 30px;
+  background-color: white;
+
+}
+.bill{
+  background: #FF9800;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  height: 40px;
+  align-content: center;
+
+}
+.billh5{
+  display: flex;
+  justify-content:space-between;
+  padding: 3px;
+}
+.UPI{
+  margin-left:20px;
+}

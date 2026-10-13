@@ -1,0 +1,39 @@
+.bestSeller-container{
+    background-color:rgb(238, 226, 236);
+    /* display: flex;
+    justify-content: center; */
+}
+.bestSeller-heading{
+    padding:20px;
+}
+.bestSeller-h4{
+    color:rgb(212, 90, 9);
+    font-size:22px;
+    margin-bottom:0px;
+    font-weight: bold;
+    text-align: center;
+}
+.bestSeller-h1{
+    color:rgb(34, 33, 33);
+    font-size:60px;
+    margin-top:5px;
+    padding:20px;
+    margin-bottom:0px;
+    text-align: center;
+}
+.bestSeller-h2{
+    color:rgb(34, 33, 33);
+    font-size:30px;
+    padding:10px;
+    margin-bottom:0px;
+    font-weight: bold;
+    text-align: center;
+}
+.bestSeller-card-container{
+    display:flex;
+    justify-content: center;
+   
+}
+.home-card{
+    margin:10px;
+}

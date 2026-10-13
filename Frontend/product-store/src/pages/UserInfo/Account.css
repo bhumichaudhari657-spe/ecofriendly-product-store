@@ -1,0 +1,66 @@
+.MyaccDiv{
+    height: 700px;
+    width: 600px;
+    margin-left:450px;
+}
+.orderCartDiv{
+    display: flex;
+    justify-content: space-around; 
+    border: 1px black solid;
+    padding: 20px;
+    border-left: none;
+    border-right: none;
+}
+.orderCartSubdiv{
+    display: flex;
+    border: 1px black solid;
+    background-color: #185E3F;
+    /* padding: 10px; */
+    border-radius: 5px;
+    color: white;
+    width:120px;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.linkList{
+     text-decoration: none;
+}
+.MyaccDetail{
+    margin-top: 30px;
+}
+.AccText{
+    font-size: large;
+     width: 100%;
+}
+.Intro{
+    display: flex;
+    margin-top: 10px;
+}
+.Intro h2{
+    margin-top: 7px;
+    margin-left: 10px;
+}
+.Earn{
+    margin-top: 20px;
+    border: 1px black solid;
+    border-right: none;
+    border-left: none;
+    gap:10px;
+}
+.Store{
+    display: flex;
+    align-items: center;
+    text-align: none;
+    
+}
+.logout{
+    margin-left: 250px;
+    margin-top:20px;
+    height: 50px;
+    width:100px;
+    color:white;
+    background-color: #185E3F;
+    border-radius: 10px;
+}

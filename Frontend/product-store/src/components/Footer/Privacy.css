@@ -1,0 +1,32 @@
+.privacy-policy-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #333;
+  text-align: center; /* Centers all text */
+}
+
+.page-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 20px;
+  color: #222;
+}
+
+p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.last-updated {
+  margin-top: 30px;
+  font-size: 14px;
+  color: #666;
+}

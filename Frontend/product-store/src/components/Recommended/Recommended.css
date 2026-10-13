@@ -1,0 +1,28 @@
+.recommended-box{
+    display:flex;
+    flex-wrap:wrap;
+    margin-bottom:20px;
+    border-bottom:1px solid gainsboro;
+}
+
+.recommended-flex{
+    display:flex;
+    margin-left:20px;
+    padding:20px;
+    
+    
+}
+.rbtn{
+    background-color:white;
+    border:2px solid gainsboro;
+    padding:15px;
+    margin-right:20px;
+    font-size:15px;
+    border-radius:8px;
+    gap:20px;
+
+}
+.recommended-title{
+    margin-left:20px;
+    display: block;
+}

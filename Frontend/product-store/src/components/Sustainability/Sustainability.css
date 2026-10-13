@@ -1,0 +1,11 @@
+.checkbox-feild{
+    display:flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    padding:10px;
+
+}
+.check-text{
+    font-size:18px;
+    font-weight:normal;
+}
