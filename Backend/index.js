@@ -16,9 +16,9 @@ app.use(cors());
 
 app.post('/Login',urlencoded,async(req,res)=>{      
     const{email,loginPassword}=req.body;
-    console.log(req.body);
+    // console.log(req.body);
      connectDb();
-    console.log(email+loginPassword)
+    // console.log(email+loginPassword)
     let dbuser = await LoginUsers.findOne({email});
 
     if(!dbuser)
@@ -44,9 +44,9 @@ app.post('/Login',urlencoded,async(req,res)=>{
 })
 app.post('/Registration',urlencoded,async(req,res)=>{       
     const{Fname,Lname,signupPassword,confirmPassword,phoneNo,address}=req.body;
-    console.log(req.body);
+    // console.log(req.body);
      connectDb();
-    console.log(Fname+Lname+signupPassword+confirmPassword+phoneNo+address)
+    // console.log(Fname+Lname+signupPassword+confirmPassword+phoneNo+address)
     const users=new SignupUsers({
         Fname,Lname,signupPassword,confirmPassword,phoneNo,address
     });
